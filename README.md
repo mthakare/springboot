@@ -16,11 +16,11 @@ To deploy this service use following command :
 
 	(Windows)
 
-	'java -jar target\org.springapp-0.0.1-SNAPSHOT.jar -Dspring.config.location=c:\config\application.properties'
+	'java -jar target\org.springapp-0.0.1-SNAPSHOT.jar  --spring.config.location=c:\config\application.properties'
 
 	(Unix)
 
-	'java -jar target\org.springapp-0.0.1-SNAPSHOT.jar -Dspring.config.location=./application.properties'
+	'java -jar target\org.springapp-0.0.1-SNAPSHOT.jar  --spring.config.location=./application.properties'
 
 Copy 'application.properties' from /src/main/resources/application.properties and modify it to point database.
 
